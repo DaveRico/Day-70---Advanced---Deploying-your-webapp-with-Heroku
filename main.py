@@ -12,10 +12,10 @@ from flask_login import UserMixin, login_user, LoginManager, login_required, cur
 from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
 from flask_gravatar import Gravatar
 from functools import wraps
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
-# Environment Variables
-load_dotenv("C:/Users/arcar/OneDrive/Documentos/Professional development/Online Courses/Udemy/100 Days of Code - The Complete Python Pro Bootcamp for 2022/Day 70 - Advanced - Deploying your webapp with Heroku/.env")
+# Environment Variables for local build
+# load_dotenv("C:/Users/arcar/OneDrive/Documentos/Professional development/Online Courses/Udemy/100 Days of Code - The Complete Python Pro Bootcamp for 2022/Day 70 - Advanced - Deploying your webapp with Heroku/.env")
 
 # Server Setup
 app = Flask(__name__)
